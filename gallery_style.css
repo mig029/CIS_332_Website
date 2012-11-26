@@ -1,0 +1,60 @@
+.gallery{
+	position: relative;
+	height: 600px;
+	width: 90%;
+	margin-right: auto;
+	margin-left: auto;
+
+
+/*Add a height attribute and set to largest image's height to prevent overlaying*/
+}
+
+.tn img{
+border: 1px solid white;
+margin: auto 20px auto 20px;
+
+
+}
+
+
+.tntext{
+	width: 150px;
+	text-align: center;
+	display: inline;
+	margin: 10px;
+	float:left;
+}
+.tn:hover{
+background-color: transparent;
+}
+
+.tn:hover img{
+border: 1px solid blue;
+}
+
+.tn span{ /*CSS for enlarged image*/
+position: absolute;
+/* background-color: lightyellow; */
+background: rgba(0, 0, 0, .5);
+padding: 5px;
+left: -1000px;
+border: 1px dashed gray;
+visibility: hidden;
+color: black;
+text-decoration: none;
+text-align:center;
+}
+
+
+.tn span img{ /*CSS for enlarged image*/
+border-width: 0;
+padding: 2px;
+}
+
+.tn:hover span{ /*CSS for enlarged image*/
+	visibility: visible;
+	top: 0px;
+	left: 230px; /*position where enlarged image should offset horizontally */
+	z-index: 50;
+}
+

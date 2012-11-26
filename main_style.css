@@ -1,0 +1,96 @@
+#top {
+	border-bottom-style: none;
+	border-top-color: none;
+	border-right-color: none;
+	border-bottom-color: none;
+	border-left-color: none;
+	height: 100px;
+	width: 100%;
+	margin: 0;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	padding-right: 50px;
+	padding-top: 0px;
+	vertical-align: central;
+	border-top-style: none;
+	border-right-style: none;
+	border-left-style: none;
+}
+body {
+	color: #000000;
+	background: #1e5799;
+	background: -moz-linear-gradient(top, #1e5799 0%, #adc3d6 38%, #7ca7c9 67%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#1e5799), color-stop(38%,#adc3d6), color-stop(67%,#7ca7c9));
+	background: -webkit-linear-gradient(top, #1e5799 0%,#adc3d6 38%,#7ca7c9 67%);
+	background: -o-linear-gradient(top, #1e5799 0%,#adc3d6 38%,#7ca7c9 67%);
+	background: -ms-linear-gradient(top, #1e5799 0%,#adc3d6 38%,#7ca7c9 67%);
+	background: linear-gradient(to bottom, #1e5799 0%,#adc3d6 38%,#7ca7c9 67%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#7ca7c9',GradientType=0 );
+	font-family: "Comic Sans MS", cursive;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+	
+	
+}
+#content {
+	width: 80%;
+	border: 5px double none;
+	position: relative;
+	border-radius: 3px;
+	min-height: 90%;
+	height: 500px;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: transparent;
+}
+
+
+#top h1 {
+	font-family: "Comic Sans MS", cursive;
+	font-weight: 900;
+	color: #99CCCC;
+	text-shadow: -2px -2px 1px #FFFFFF, 2px 2px 1px #000000;
+	font-size: 8ex;
+}
+.banner{
+float:right;
+margin-right:75px;
+
+}.about {
+	text-indent: 10mm;
+}
+h3 {
+	border-top-width: 5px;
+	border-right-width: 5px;
+	border-bottom-width: 5px;
+	border-left-width: 5px;
+	border-top-style: double;
+	border-right-style: none;
+	border-bottom-style: double;
+	border-left-style: none;
+	border-top-color: black;
+	border-right-color: black;
+	border-bottom-color: black;
+	border-left-color: black;
+	text-align: center;
+}
+form p {
+	vertical-align: middle;
+}
+.img {
+	width: auto;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+}
+.description {
+	padding-left: 15%;
+	padding-bottom: 10px;
+}
